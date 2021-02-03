@@ -8,3 +8,10 @@ Several search types are presented:
 - skip lists
 - trie
 - combined variant trie-lists
+
+Usage:
+./speller [DICTIONARY] text
+
+DICTIONARY - .txt file containing dictionary of words, one word per line in alphabetical order. The application assumes that default dictionary is in ./dictionaries/large
+
+text - .txt file with a text in the same language as a dictionary 
